@@ -1,10 +1,10 @@
 <?php
 
-namespace Ashuxia\ThirdLogin;
+namespace Ashuxia\Hexin;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
-class WeixinExtendSocialite
+class HexinExtendSocialite
 {
     /**
      * Register the provider.
@@ -14,7 +14,7 @@ class WeixinExtendSocialite
     public function handle(SocialiteWasCalled $socialiteWasCalled)
     {
         $socialiteWasCalled->extendSocialite(
-            'weixin', __NAMESPACE__.'\Provider'
+            'hexin', __NAMESPACE__.'\Provider'
         );
     }
 }

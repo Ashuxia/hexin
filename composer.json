@@ -1,6 +1,6 @@
 {
-    "name": "thirdlogin/weixin",
-    "description": "hexin weixin login",
+    "name": "ashuxia/hexin",
+    "description": "hexin login",
     "authors": [
         {
             "name": "Ashuxia",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ashuxia\\ThirdLogin\\":"src/"
+            "Ashuxia\\Hexin\\":"src/"
         }
     }
 }
