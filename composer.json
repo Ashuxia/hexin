@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ThirdLogin\\Weixin\\":"src/"
+            "Ashuxia\\ThirdLogin\\":"src/"
         }
     }
 }

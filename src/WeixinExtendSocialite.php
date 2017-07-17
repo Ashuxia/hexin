@@ -1,6 +1,6 @@
 <?php
 
-namespace Thirdlogin\Weixin;
+namespace Ashuxia\ThirdLogin;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
